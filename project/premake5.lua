@@ -24,7 +24,7 @@ project "assimp"
       "../code/Common/DefaultIOStream.cpp",
       "../code/Common/DefaultIOSystem.cpp",
       "../code/Common/DefaultLogger.cpp",
-      "../code/GenVertexNormalsProcess.cpp",
+      "../code/PostProcessing/GenVertexNormalsProcess.cpp",
       "../code/Common/Importer.cpp",
       "../code/Common/ImporterRegistry.cpp",
       "../code/Material/MaterialSystem.cpp",
@@ -33,9 +33,9 @@ project "assimp"
       "../code/Common/scene.cpp",
       "../code/Common/ScenePreprocessor.cpp",
       "../code/PostProcessing/ScaleProcess.cpp",
-      "../code/SGSpatialSort.cpp",
-      "../code/SkeletonMeshBuilder.cpp",
-      "../code/SpatialSort.cpp",
+      "../code/Common/SGSpatialSort.cpp",
+      "../code/Common/SkeletonMeshBuilder.cpp",
+      "../code/Common/SpatialSort.cpp",
       "../code/PostProcessing/TriangulateProcess.cpp",
       "../code/PostProcessing/ValidateDataStructure.cpp",
       "../code/Common/Version.cpp",
@@ -53,6 +53,7 @@ project "assimp"
 	  }
   
   includedirs {
+	  "..",
       "../include",
 	  "../code",
       "../contrib/irrXML",

@@ -1,7 +1,7 @@
 #ifndef ASSIMP_REVISION_H_INC
 #define ASSIMP_REVISION_H_INC
 
-#define GitVersion 0x@GIT_COMMIT_HASH@
+#define GitVersion 0x0
 #define GitBranch "@GIT_BRANCH@"
 
 #define VER_MAJOR @ASSIMP_VERSION_MAJOR@
