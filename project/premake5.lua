@@ -10,7 +10,7 @@ project "assimp"
   
   files
   {
-      "../include/**",
+      "../include/*",
       "../code/Common/Assimp.cpp",
       "../code/Common/BaseImporter.cpp",
       "../code/Collada/ColladaLoader.cpp",
